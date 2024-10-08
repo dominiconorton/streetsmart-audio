@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "URL to Webhook",
+  "version": "1.0",
+  "description": "Sends the current tab URL to a webhook",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "src/background.ts"
+  }
+}
